@@ -1,0 +1,29 @@
+{
+  "name": "practice-coding-interviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_utils.js",
+  "scripts": {
+    "start": "nodemon --exec npm run babel-node -- index.js",
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnanhkhoa/practice-coding-interviews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnanhkhoa/practice-coding-interviews/issues"
+  },
+  "homepage": "https://github.com/lnanhkhoa/practice-coding-interviews#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
